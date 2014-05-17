@@ -30,7 +30,16 @@ static NSString *CellTableIdentifier = @"CellTableIdentifier";
     @{@"Name" : @"Mac Pro", @"Color" : @"Silver"}];
     
     UITableView *tableView = (id)[self.view viewWithTag:1];
-    [tableView registerClass:[BIDNameAndColorCell class] forCellReuseIdentifier:CellTableIdentifier];
+    UINib *nib = [UINib nibWithNibName:@"BIDNameAndColorCell" bundle:nil];
+    
+    [tableView registerNib:nib forCellReuseIdentifier:CellTableIdentifier];
+   
+}
+-(CGFloat)tableView:(UITableView *)tableView heightForRowAtIndexPath:(NSIndexPath *)indexPath
+{
+    return [indexPath row] ;
+   // NSLog (@"%d",[tableView row]);
+
 }
 
 - (void)didReceiveMemoryWarning

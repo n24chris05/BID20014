@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		9258926A192782C300450CBA /* BIDNameAndColorCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 92589269192782C300450CBA /* BIDNameAndColorCell.xib */; };
 		92C09F64191FB35800C765F5 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 92C09F63191FB35800C765F5 /* UIKit.framework */; };
 		92C09F66191FB35800C765F5 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 92C09F65191FB35800C765F5 /* Foundation.framework */; };
 		92C09F68191FB35800C765F5 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 92C09F67191FB35800C765F5 /* CoreGraphics.framework */; };
@@ -22,6 +23,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		92589269192782C300450CBA /* BIDNameAndColorCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = BIDNameAndColorCell.xib; sourceTree = "<group>"; };
 		92C09F5F191FB35800C765F5 /* Cells.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Cells.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		92C09F63191FB35800C765F5 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
 		92C09F65191FB35800C765F5 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
@@ -93,6 +95,7 @@
 				92C09F7E191FB35800C765F5 /* ViewController.xib */,
 				92C09F86191FB7A700C765F5 /* BIDNameAndColorCell.h */,
 				92C09F87191FB7A700C765F5 /* BIDNameAndColorCell.m */,
+				92589269192782C300450CBA /* BIDNameAndColorCell.xib */,
 				92C09F6A191FB35800C765F5 /* Supporting Files */,
 			);
 			path = Cells;
@@ -167,6 +170,7 @@
 				92C09F76191FB35800C765F5 /* Default.png in Resources */,
 				92C09F78191FB35800C765F5 /* Default@2x.png in Resources */,
 				92C09F7A191FB35800C765F5 /* Default-568h@2x.png in Resources */,
+				9258926A192782C300450CBA /* BIDNameAndColorCell.xib in Resources */,
 				92C09F80191FB35800C765F5 /* ViewController.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -297,6 +301,7 @@
 				92C09F85191FB35800C765F5 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
