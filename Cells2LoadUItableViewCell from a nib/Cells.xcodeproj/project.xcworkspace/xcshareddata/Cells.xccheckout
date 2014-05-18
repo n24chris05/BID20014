@@ -5,31 +5,19 @@
 	<key>IDESourceControlProjectFavoriteDictionaryKey</key>
 	<false/>
 	<key>IDESourceControlProjectIdentifier</key>
-<<<<<<< HEAD
-	<string>53C8AD88-140A-4653-982B-008F9984F9E7</string>
-=======
 	<string>2316B986-A954-4BC7-AB27-5FD31493F1EA</string>
->>>>>>> FETCH_HEAD
 	<key>IDESourceControlProjectName</key>
 	<string>Cells</string>
 	<key>IDESourceControlProjectOriginsDictionary</key>
 	<dict>
-<<<<<<< HEAD
-		<key>67302621-C153-49DC-AF17-1B965345F8C1</key>
-=======
 		<key>DCF72317-64D4-4E99-B22E-CBDE9D3350AA</key>
->>>>>>> FETCH_HEAD
 		<string>https://github.com/n24chris05/BID20014.git</string>
 	</dict>
 	<key>IDESourceControlProjectPath</key>
 	<string>Cells/Cells.xcodeproj/project.xcworkspace</string>
 	<key>IDESourceControlProjectRelativeInstallPathDictionary</key>
 	<dict>
-<<<<<<< HEAD
-		<key>67302621-C153-49DC-AF17-1B965345F8C1</key>
-=======
 		<key>DCF72317-64D4-4E99-B22E-CBDE9D3350AA</key>
->>>>>>> FETCH_HEAD
 		<string>../../..</string>
 	</dict>
 	<key>IDESourceControlProjectURL</key>
@@ -37,26 +25,16 @@
 	<key>IDESourceControlProjectVersion</key>
 	<integer>110</integer>
 	<key>IDESourceControlProjectWCCIdentifier</key>
-<<<<<<< HEAD
-	<string>67302621-C153-49DC-AF17-1B965345F8C1</string>
-=======
 	<string>DCF72317-64D4-4E99-B22E-CBDE9D3350AA</string>
->>>>>>> FETCH_HEAD
 	<key>IDESourceControlProjectWCConfigurations</key>
 	<array>
 		<dict>
 			<key>IDESourceControlRepositoryExtensionIdentifierKey</key>
 			<string>public.vcs.git</string>
 			<key>IDESourceControlWCCIdentifierKey</key>
-<<<<<<< HEAD
-			<string>67302621-C153-49DC-AF17-1B965345F8C1</string>
-			<key>IDESourceControlWCCName</key>
-			<string>BID20014</string>
-=======
 			<string>DCF72317-64D4-4E99-B22E-CBDE9D3350AA</string>
 			<key>IDESourceControlWCCName</key>
 			<string>BID</string>
->>>>>>> FETCH_HEAD
 		</dict>
 	</array>
 </dict>
