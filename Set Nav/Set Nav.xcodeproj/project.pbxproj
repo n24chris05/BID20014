@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		279673F11931F0DC00DDC8C3 /* BIDDisclosureDetailViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 279673F01931F0DC00DDC8C3 /* BIDDisclosureDetailViewController.m */; };
 		27D9D2121931CDD000EE964E /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 27D9D2111931CDD000EE964E /* Foundation.framework */; };
 		27D9D2141931CDD000EE964E /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 27D9D2131931CDD000EE964E /* CoreGraphics.framework */; };
 		27D9D2161931CDD000EE964E /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 27D9D2151931CDD000EE964E /* UIKit.framework */; };
@@ -43,6 +44,8 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		279673EF1931F0DC00DDC8C3 /* BIDDisclosureDetailViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BIDDisclosureDetailViewController.h; sourceTree = "<group>"; };
+		279673F01931F0DC00DDC8C3 /* BIDDisclosureDetailViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BIDDisclosureDetailViewController.m; sourceTree = "<group>"; };
 		27D9D20E1931CDD000EE964E /* Set Nav.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Set Nav.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		27D9D2111931CDD000EE964E /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		27D9D2131931CDD000EE964E /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
@@ -71,8 +74,8 @@
 		27D9D24D1931DD5E00EE964E /* disclosureButtonControllerIcon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = disclosureButtonControllerIcon.png; sourceTree = "<group>"; };
 		27D9D24E1931DD5E00EE964E /* moveMeIcon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = moveMeIcon.png; sourceTree = "<group>"; };
 		27D9D24F1931DD5E00EE964E /* rowControlsIcon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = rowControlsIcon.png; sourceTree = "<group>"; };
-		27D9D2591931DEA800EE964E /* BIDDisclosureButttonViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = BIDDisclosureButttonViewController.h; path = "Set Nav/BIDDisclosureButttonViewController.h"; sourceTree = "<group>"; };
-		27D9D25A1931DEA800EE964E /* BIDDisclosureButttonViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = BIDDisclosureButttonViewController.m; path = "Set Nav/BIDDisclosureButttonViewController.m"; sourceTree = "<group>"; };
+		27D9D2591931DEA800EE964E /* BIDDisclosureButttonViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BIDDisclosureButttonViewController.h; sourceTree = "<group>"; };
+		27D9D25A1931DEA800EE964E /* BIDDisclosureButttonViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BIDDisclosureButttonViewController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -103,7 +106,6 @@
 			isa = PBXGroup;
 			children = (
 				27D9D2171931CDD000EE964E /* Set Nav */,
-				27D9D25C1931DEB600EE964E /* subControllers */,
 				27D9D2181931CDD000EE964E /* Supporting Files */,
 				27D9D2301931CDD100EE964E /* Set NavTests */,
 				27D9D2101931CDD000EE964E /* Frameworks */,
@@ -134,10 +136,16 @@
 		27D9D2171931CDD000EE964E /* Set Nav */ = {
 			isa = PBXGroup;
 			children = (
+				27D9D2431931D27700EE964E /* BIDSecondLevelController.h */,
+				27D9D2441931D27700EE964E /* BIDSecondLevelController.m */,
+				27D9D2591931DEA800EE964E /* BIDDisclosureButttonViewController.h */,
+				27D9D25A1931DEA800EE964E /* BIDDisclosureButttonViewController.m */,
+				27D9D2401931D04200EE964E /* BIDFirstLevelViewController.h */,
+				27D9D2411931D04200EE964E /* BIDFirstLevelViewController.m */,
+				279673EF1931F0DC00DDC8C3 /* BIDDisclosureDetailViewController.h */,
+				279673F01931F0DC00DDC8C3 /* BIDDisclosureDetailViewController.m */,
 				27D9D2201931CDD000EE964E /* BIDAppDelegate.h */,
 				27D9D2211931CDD000EE964E /* BIDAppDelegate.m */,
-				27D9D2461931D2FF00EE964E /* FirstLevel */,
-				27D9D2471931D31700EE964E /* secondLevel */,
 			);
 			path = "Set Nav";
 			sourceTree = "<group>";
@@ -174,24 +182,6 @@
 			name = "Supporting Files";
 			sourceTree = "<group>";
 		};
-		27D9D2461931D2FF00EE964E /* FirstLevel */ = {
-			isa = PBXGroup;
-			children = (
-				27D9D2401931D04200EE964E /* BIDFirstLevelViewController.h */,
-				27D9D2411931D04200EE964E /* BIDFirstLevelViewController.m */,
-			);
-			name = FirstLevel;
-			sourceTree = "<group>";
-		};
-		27D9D2471931D31700EE964E /* secondLevel */ = {
-			isa = PBXGroup;
-			children = (
-				27D9D2431931D27700EE964E /* BIDSecondLevelController.h */,
-				27D9D2441931D27700EE964E /* BIDSecondLevelController.m */,
-			);
-			name = secondLevel;
-			sourceTree = "<group>";
-		};
 		27D9D2581931DD7200EE964E /* images */ = {
 			isa = PBXGroup;
 			children = (
@@ -206,15 +196,6 @@
 			);
 			name = images;
 			path = ..;
-			sourceTree = "<group>";
-		};
-		27D9D25C1931DEB600EE964E /* subControllers */ = {
-			isa = PBXGroup;
-			children = (
-				27D9D2591931DEA800EE964E /* BIDDisclosureButttonViewController.h */,
-				27D9D25A1931DEA800EE964E /* BIDDisclosureButttonViewController.m */,
-			);
-			name = subControllers;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -321,6 +302,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				279673F11931F0DC00DDC8C3 /* BIDDisclosureDetailViewController.m in Sources */,
 				27D9D25B1931DEA800EE964E /* BIDDisclosureButttonViewController.m in Sources */,
 				27D9D2451931D27700EE964E /* BIDSecondLevelController.m in Sources */,
 				27D9D2421931D04200EE964E /* BIDFirstLevelViewController.m in Sources */,
