@@ -102,8 +102,9 @@
 		27D9D2051931CDD000EE964E = {
 			isa = PBXGroup;
 			children = (
-				27D9D25C1931DEB600EE964E /* subControllers */,
 				27D9D2171931CDD000EE964E /* Set Nav */,
+				27D9D25C1931DEB600EE964E /* subControllers */,
+				27D9D2181931CDD000EE964E /* Supporting Files */,
 				27D9D2301931CDD100EE964E /* Set NavTests */,
 				27D9D2101931CDD000EE964E /* Frameworks */,
 				27D9D20F1931CDD000EE964E /* Products */,
@@ -135,9 +136,8 @@
 			children = (
 				27D9D2201931CDD000EE964E /* BIDAppDelegate.h */,
 				27D9D2211931CDD000EE964E /* BIDAppDelegate.m */,
-				27D9D2471931D31700EE964E /* secondLevel */,
 				27D9D2461931D2FF00EE964E /* FirstLevel */,
-				27D9D2181931CDD000EE964E /* Supporting Files */,
+				27D9D2471931D31700EE964E /* secondLevel */,
 			);
 			path = "Set Nav";
 			sourceTree = "<group>";
@@ -151,6 +151,7 @@
 				27D9D21F1931CDD000EE964E /* Set Nav-Prefix.pch */,
 			);
 			name = "Supporting Files";
+			path = "Set Nav";
 			sourceTree = "<group>";
 		};
 		27D9D2301931CDD100EE964E /* Set NavTests */ = {
@@ -521,6 +522,7 @@
 				27D9D23C1931CDD100EE964E /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		27D9D23D1931CDD100EE964E /* Build configuration list for PBXNativeTarget "Set NavTests" */ = {
 			isa = XCConfigurationList;
@@ -529,6 +531,7 @@
 				27D9D23F1931CDD100EE964E /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
